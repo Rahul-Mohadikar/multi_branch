@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("echo"){
             steps{
-                echo "this is UAT branch"
+                echo "this is dev branch for mulitbranch pipeline"
             }
         }
     }
